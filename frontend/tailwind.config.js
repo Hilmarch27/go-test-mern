@@ -7,6 +7,10 @@ export const content = [
   ,
 ];
 export const theme = {
-  extend: {},
+  extend: {
+    colors: {
+      iceblue: "#61DBFB",
+    },
+  },
 };
 export const plugins = [plugin()];
